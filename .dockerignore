@@ -1,0 +1,11 @@
+
+.git
+__pycache__
+*.pyc
+.ipynb_checkpoints
+.venv
+venv
+data/
+src/
+lora-adapter.zip/
+*.ipynb

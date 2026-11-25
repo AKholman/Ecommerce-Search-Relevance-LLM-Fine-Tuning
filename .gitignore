@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+*.log
+
+# Model & training artifacts (DO NOT COMMIT)
+models/
+checkpoints/
+outputs/
+runs/
+
+# Hugging Face cache
+.cache/
+.huggingface/
+
+# LoRA adapters (if large)
+lora-adapter/
+lora-adapter.zip
+*.bin
+*.safetensors
+
+# Data (if private or large)
+data/raw/
+data/processed/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Node (if web UI uses JS tooling)
+node_modules/
+
+Tech_README.md
+

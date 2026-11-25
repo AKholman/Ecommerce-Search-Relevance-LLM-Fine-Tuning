@@ -1,0 +1,35 @@
+Full test set size: 425731
+Sample size: 2000
+Sample distribution: Counter({'Exact': 1314, 'Substitute': 438, 'Irrelevant': 201, 'Complement': 47})
+
+=== BASE MODEL ===
+Accuracy: 0.1220
+Macro-F1: 0.2017
+Invalid predictions: 1074
+              precision    recall  f1-score   support
+
+       Exact     0.9038    0.0358    0.0688      1314
+  Substitute     0.4000    0.1598    0.2284       438
+  Complement     0.0571    0.4681    0.1019        47
+  Irrelevant     0.3344    0.5224    0.4078       201
+
+   micro avg     0.2635    0.1220    0.1668      2000
+   macro avg     0.4238    0.2965    0.2017      2000
+weighted avg     0.7164    0.1220    0.1386      2000
+
+
+=== BASE + LoRA ===
+Accuracy: 0.6535
+Macro-F1: 0.5148
+Invalid predictions: 0
+              precision    recall  f1-score   support
+
+       Exact     0.9139    0.6948    0.7895      1314
+  Substitute     0.4907    0.5411    0.5147       438
+  Complement     0.1795    0.7447    0.2893        47
+  Irrelevant     0.3777    0.6070    0.4656       201
+
+    accuracy                         0.6535      2000
+   macro avg     0.4904    0.6469    0.5148      2000
+weighted avg     0.7501    0.6535    0.6850      2000
+

@@ -1,0 +1,32 @@
+
+=== BASE MODEL ===
+Accuracy: 0.2975
+Macro-F1: 0.3179
+Invalid predictions: 786
+              precision    recall  f1-score   support
+
+       Exact     0.6176    0.0420    0.0787       500
+  Substitute     0.4015    0.1100    0.1727       500
+  Complement     0.4270    0.4740    0.4493       500
+  Irrelevant     0.5779    0.5640    0.5709       500
+
+   micro avg     0.4901    0.2975    0.3703      2000
+   macro avg     0.5060    0.2975    0.3179      2000
+weighted avg     0.5060    0.2975    0.3179      2000
+
+
+=== BASE + LoRA ===
+Accuracy: 0.6640
+Macro-F1: 0.6623
+Invalid predictions: 0
+              precision    recall  f1-score   support
+
+       Exact     0.6406    0.7380    0.6859       500
+  Substitute     0.6300    0.5380    0.5804       500
+  Complement     0.7433    0.7240    0.7335       500
+  Irrelevant     0.6431    0.6560    0.6495       500
+
+    accuracy                         0.6640      2000
+   macro avg     0.6643    0.6640    0.6623      2000
+weighted avg     0.6643    0.6640    0.6623      2000
+
